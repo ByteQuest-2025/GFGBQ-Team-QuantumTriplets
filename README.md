@@ -42,7 +42,16 @@ FraudShield AI is an AI-driven application designed to detect fraudulent phone c
 
 The system is built with a strong focus on elderly and vulnerable users, featuring an Elder Mode for enhanced accessibility, simplified UI, and clear alerts. The solution combines real-time speech-to-text processing with intelligent fraud pattern detection to provide proactive protection against financial and emotional exploitation.
 
-Setup & Installation Instructions
+## Setup & Installation Instructions
+
+### Frontend
+
+```bash
+Navigate to the frontend folder:
+
+cd frontend
+
+
 Install dependencies:
 
 npm install
@@ -56,6 +65,7 @@ npm run dev
 Open the browser at:
 
 http://localhost:3000
+
 
 Backend
 
@@ -77,7 +87,7 @@ node server.js
 Backend runs at:
 
 http://localhost:5000
-
+```
 # Usage Instructions
 
 Open the application and land on the Home Page.
