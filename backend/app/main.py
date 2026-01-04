@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api import router as api_router
 
+
 app = FastAPI(
     title="CallShield API",
     description="API for transcription and scam call analysis",
