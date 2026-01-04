@@ -30,7 +30,7 @@ https://drive.google.com/drive/folders/1zCiCkipwlw5AVKhTgxsC37QswGV_G-93
 
 **PPT Link**
 
-https://docs.google.com/presentation/d/1C1bf6KzwTgiSK3MtBTu9VKOmUnZQFJJY/edit?usp=drivesdk&ouid=100459051324847398885&rtpof=true&sd=true
+https://drive.google.com/drive/folders/1eTBdj0EPhbLvDjWOyN9QAo4473PbdeIP
 
 # Project Overview
 
@@ -101,3 +101,11 @@ If suspicious patterns are detected, the user receives an immediate fraud alert 
 Clicking on the FraudShield AI header navigates back to the Home Page at any time.
 
 **Relevant Screenshots**
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b1aea92e-61bc-4601-bd74-0c704827686e" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/6788fa11-36a4-4fcb-a3f9-1a605050bae7" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b987f77e-bb36-407c-96e2-327a6cb2ee5d" />
+<img width="1920" height="1080" alt="Screenshot (477) (1)" src="https://github.com/user-attachments/assets/34720d59-20b7-4a3c-85a0-4278a68a4c90" />
+<img width="1920" height="1080" alt="Screenshot (478) (1)" src="https://github.com/user-attachments/assets/06b64624-3dc5-437b-8c5d-9b8ea663715e" />
+
+
+
