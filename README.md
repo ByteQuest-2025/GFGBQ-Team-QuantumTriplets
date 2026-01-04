@@ -24,17 +24,13 @@ FraudShield AI – Real-Time Audio Fraud Detection System
 
 Quantuam Triplets
 
-**Deployed Link**
-
-https://fraudshield-ai-demo.vercel.app
-
 **2-Minute Demonstration Video Link**
 
-https://youtu.be/fraudshield-ai-demo-video
+https://drive.google.com/drive/folders/1zCiCkipwlw5AVKhTgxsC37QswGV_G-93
 
 **PPT Link**
 
-https://drive.google.com/file/d/fraudshield-ai-presentation/view
+https://docs.google.com/presentation/d/1C1bf6KzwTgiSK3MtBTu9VKOmUnZQFJJY/edit?usp=drivesdk&ouid=100459051324847398885&rtpof=true&sd=true
 
 # Project Overview
 
