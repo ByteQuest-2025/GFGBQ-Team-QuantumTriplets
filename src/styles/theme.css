@@ -1,0 +1,209 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  
+  /* Warm, friendly pink-based palette */
+  --background: #fef5f7;
+  --foreground: #5a2e3e;
+  --card: #ffffff;
+  --card-foreground: #5a2e3e;
+  --popover: #ffffff;
+  --popover-foreground: #5a2e3e;
+  
+  /* Primary: Soft blush pink */
+  --primary: #ff9eb7;
+  --primary-foreground: #ffffff;
+  
+  /* Secondary: Light pastel pink */
+  --secondary: #ffe3ec;
+  --secondary-foreground: #5a2e3e;
+  
+  --muted: #f9e8ed;
+  --muted-foreground: #8b6574;
+  
+  --accent: #ffd4e3;
+  --accent-foreground: #5a2e3e;
+  
+  /* Destructive: Red-pink for high risk */
+  --destructive: #ff4d6d;
+  --destructive-foreground: #ffffff;
+  
+  --border: rgba(255, 158, 183, 0.2);
+  --input: transparent;
+  --input-background: #fff8fa;
+  --switch-background: #ffd4e3;
+  --font-weight-medium: 600;
+  --font-weight-normal: 400;
+  --ring: #ff9eb7;
+  
+  /* Custom colors for AI guardian theme */
+  --safe-green: #6ee7b7;
+  --warning-amber: #fbbf24;
+  --risk-red-pink: #ff4d6d;
+  --soft-pink: #ffc9d9;
+  --rose-pink: #ff9eb7;
+  --blush-pink: #ffb3c6;
+  --deep-mauve: #5a2e3e;
+  --light-rose: #ffe3ec;
+  
+  --radius: 1rem;
+  
+  --sidebar: #ffffff;
+  --sidebar-foreground: #5a2e3e;
+  --sidebar-primary: #ff9eb7;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #ffe3ec;
+  --sidebar-accent-foreground: #5a2e3e;
+  --sidebar-border: rgba(255, 158, 183, 0.2);
+  --sidebar-ring: #ff9eb7;
+}
+
+.dark {
+  /* Dark mode uses deep mauve/rose tones instead of harsh blacks */
+  --background: #2a1a23;
+  --foreground: #ffe3ec;
+  --card: #3d2632;
+  --card-foreground: #ffe3ec;
+  --popover: #3d2632;
+  --popover-foreground: #ffe3ec;
+  --primary: #ff9eb7;
+  --primary-foreground: #2a1a23;
+  --secondary: #4d3440;
+  --secondary-foreground: #ffe3ec;
+  --muted: #4d3440;
+  --muted-foreground: #d4a5b8;
+  --accent: #5a3e4d;
+  --accent-foreground: #ffe3ec;
+  --destructive: #ff4d6d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(255, 158, 183, 0.2);
+  --input: rgba(255, 158, 183, 0.1);
+  --ring: #ff9eb7;
+  --sidebar: #3d2632;
+  --sidebar-foreground: #ffe3ec;
+  --sidebar-primary: #ff9eb7;
+  --sidebar-primary-foreground: #2a1a23;
+  --sidebar-accent: #4d3440;
+  --sidebar-accent-foreground: #ffe3ec;
+  --sidebar-border: rgba(255, 158, 183, 0.2);
+  --sidebar-ring: #ff9eb7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 8px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  }
+
+  /**
+  * Default typography styles for HTML elements (h1-h4, p, label, button, input).
+  * These are in @layer base, so Tailwind utility classes (like text-sm, text-lg) automatically override them.
+  */
+
+  html {
+    font-size: var(--font-size);
+  }
+
+  h1 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h4 {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  label {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  button {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  input {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-normal);
+    line-height: 1.5;
+  }
+
+  /* Custom scrollbar with pink theme */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 158, 183, 0.1);
+    border-radius: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 158, 183, 0.4);
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 158, 183, 0.6);
+  }
+}
