@@ -1,5 +1,4 @@
-
-  #Real-Time Audio Fraud Detection for Scam Prevention
+# Real-Time Audio Fraud Detection for Scam Prevention
   
 With the rapid rise of voice-based scams, fraudsters increasingly exploit phone calls to deceive
 users. Particularly vulnerable groups such as elderly individuals, digitally unaware users, and first-
@@ -37,7 +36,7 @@ https://youtu.be/fraudshield-ai-demo-video
 
 https://drive.google.com/file/d/fraudshield-ai-presentation/view
 
-#Project Overview
+# Project Overview
 
 FraudShield AI is an AI-driven application designed to detect fraudulent phone calls in real time using live audio analysis. Unlike traditional systems that act after damage is done, FraudShield AI actively monitors ongoing calls, identifies scam patterns, and alerts users instantly.
 
@@ -91,7 +90,7 @@ Backend runs at:
 
 http://localhost:5000
 
-#Usage Instructions
+# Usage Instructions
 
 Open the application and land on the Home Page.
 
